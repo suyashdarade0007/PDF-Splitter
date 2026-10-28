@@ -1,38 +1,52 @@
-# PDF Splitter v1.0
+# PDF Splitter 📄
 
-A mobile-friendly, static PDF splitting website. PDF files are processed in the user's browser with `pdf-lib`; ZIP downloads are created with `JSZip`. The site does not send the selected PDF to an application backend.
+**Split your assignments into individual PDFs, quickly and privately.**
 
-## Run locally
+PDF Splitter is a lightweight, browser-based tool designed to make assignment submissions easier for students. Instead of manually separating every question into a different PDF, upload your complete assignment, define the page ranges, and generate individual PDF files in seconds.
 
-Open `index.html` in a modern browser while connected to the internet (the PDF libraries and fonts are loaded from CDNs).
+## &#x20;Features
 
-For a local development server, from this folder run:
+- **Browser-based processing:** Your PDF files are processed locally on your device.
+- **Custom page ranges:** Split PDFs using ranges such as `1-2, 3-4, 5-6`.
+- **Automatic splitting:** Divide a document into groups of a specified number of pages.
+- **Custom filenames:** Name the generated PDFs using your assignment name.
+- **Bulk download:** Download all generated PDFs together in a ZIP archive.
+- **Individual downloads:** Download specific PDF files whenever needed.
+- **Mobile-friendly:** Designed for students using smartphones, tablets, and computers.
+- **No account required:** Start splitting without registration.
 
-```bash
-python -m http.server 8000
-```
+## 🎯 Why PDF Splitter?
 
-Then visit `http://localhost:8000`.
+Students often need to submit each assignment question as a separate PDF through college ERP systems. Manually creating these files can be repetitive and frustrating, especially on mobile devices.
 
-## Deploy to Vercel
+PDF Splitter simplifies the process into three steps:
 
-1. Upload this folder to a GitHub repository.
-2. In Vercel, import the repository.
-3. Keep the framework preset as **Other** and leave build/output settings empty.
-4. Deploy. `index.html` is served as a static site.
+1. Upload your complete assignment PDF.
+2. Choose automatic page grouping or enter custom page ranges.
+3. Download the individual PDFs or get everything in one ZIP file.
 
-## Features
+## 🛠️ Built With
 
-- Upload a PDF from desktop or mobile
-- Split into equal page groups, with configurable starting page
-- Enter custom ranges such as `1-2, 3-4, 5-7`
-- Preview ranges before processing
-- Name generated files using the assignment name
-- Download each PDF separately or all as a ZIP
-- PDF processing happens client-side; no backend is included
+- HTML
+- CSS
+- JavaScript
+- `pdf-lib` for PDF manipulation
+- `JSZip` for ZIP archive generation
 
-## Notes
+## 🔒 Privacy First
 
-- Internet is required to load the PDF libraries from the CDNs.
-- Password-protected PDFs are not supported in this version.
-- Large files can use significant device memory, especially on phones.
+PDF processing happens locally in your browser. The application does not require a backend to process uploaded documents, and the PDF contents are not intentionally uploaded to an application server.
+
+The website may load its JavaScript libraries from external CDNs, so an internet connection may be required.
+
+##
+
+## 📌 Project Status
+
+Version 1.0. The core PDF splitting workflow is implemented. Testing across different browsers, devices, and PDF formats is ongoing.
+
+##
+
+---
+
+**Built to make assignment submissions simpler for students.**
