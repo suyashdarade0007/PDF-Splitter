@@ -11,6 +11,7 @@ PDF Splitter is a lightweight, browser-based tool designed to make assignment su
 - **Automatic splitting:** Divide a document into groups of a specified number of pages.
 - **Custom filenames:** Name the generated PDFs using your assignment name.
 - **Bulk download:** Download all generated PDFs together in a ZIP archive.
+- **Target-size PDF compressor:** Compress split PDFs to exact MB/KB limits (e.g. 500 KB, 1 MB, 2 MB) to satisfy strict college portal file size limits.
 - **Individual downloads:** Download specific PDF files whenever needed.
 - **Mobile-friendly:** Designed for students using smartphones, tablets, and computers.
 - **No account required:** Start splitting without registration.
@@ -30,7 +31,8 @@ PDF Splitter simplifies the process into three steps:
 - HTML
 - CSS
 - JavaScript
-- `pdf-lib` for PDF manipulation
+- `pdf-lib` for PDF manipulation and assembly
+- `pdf.js` for in-browser page rendering and adaptive compression
 - `JSZip` for ZIP archive generation
 
 ## 🔒 Privacy First

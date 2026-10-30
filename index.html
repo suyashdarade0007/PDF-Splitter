@@ -17,12 +17,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <style>
-    :root{--ink:#172033;--muted:#68738a;--line:#e5e9f2;--paper:#fff;--bg:#f7f8fc;--blue:#465cf5;--blue2:#3548d9;--mint:#e8faf2;--green:#16865d;--red:#c43d4b;--shadow:0 18px 55px rgba(31,45,90,.08)}
-    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--ink);font-family:'DM Sans',sans-serif;line-height:1.5}button,input,select{font:inherit}button{cursor:pointer}.shell{width:min(1100px,calc(100% - 36px));margin:auto}.topbar{height:76px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #e9ecf4}.brand{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink);font-family:Manrope,sans-serif;font-weight:800;font-size:19px;letter-spacing:-.6px}.brand-icon{width:36px;height:36px;border-radius:12px;background:var(--blue);display:grid;place-items:center;color:white;box-shadow:0 7px 15px #465cf533}.brand-icon svg{width:21px;height:21px}.privacy-pill{display:flex;align-items:center;gap:7px;padding:8px 12px;border:1px solid #dbeee5;border-radius:99px;background:#f2fcf7;color:#237a5b;font-size:12px;font-weight:700}.hero{text-align:center;padding:54px 0 34px}.eyebrow{display:inline-flex;align-items:center;gap:7px;color:var(--blue);background:#edf0ff;border-radius:99px;padding:7px 12px;font-size:12px;font-weight:700;letter-spacing:.3px}.hero h1{font-family:Manrope,sans-serif;font-size:clamp(35px,5.5vw,56px);line-height:1.1;letter-spacing:-2.5px;margin:18px 0 13px;font-weight:800}.hero h1 span{color:var(--blue)}.hero p{max-width:590px;margin:0 auto;color:var(--muted);font-size:16px}.workspace{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,.95fr);gap:20px;align-items:start;padding-bottom:34px}.panel{background:var(--paper);border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden}.panel-head{padding:22px 24px 16px;border-bottom:1px solid #eef0f6}.step{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:1.1px;text-transform:uppercase}.panel h2{font-family:Manrope,sans-serif;font-size:20px;letter-spacing:-.6px;margin:5px 0 4px}.subtext{font-size:13px;color:var(--muted);margin:0}.panel-body{padding:22px 24px 24px}.dropzone{border:1.5px dashed #cbd2e5;background:#fafbff;border-radius:15px;min-height:200px;padding:24px 16px;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;transition:.2s}.dropzone.drag{border-color:var(--blue);background:#f0f2ff}.upload-icon{width:52px;height:52px;border-radius:16px;background:#edf0ff;color:var(--blue);display:grid;place-items:center;margin-bottom:12px}.upload-icon svg{width:25px;height:25px}.dropzone strong{font-family:Manrope,sans-serif;font-size:15px}.dropzone p{margin:5px 0 13px;font-size:12px;color:var(--muted)}.primary,.secondary,.download-btn{border:0;border-radius:10px;padding:11px 15px;font-weight:700;font-size:13px;display:inline-flex;align-items:center;justify-content:center;gap:8px;transition:transform .15s,background .15s}.primary{background:var(--blue);color:white;box-shadow:0 6px 14px #465cf52b}.primary:hover{background:var(--blue2);transform:translateY(-1px)}.secondary{background:#f0f2f8;color:#35405a}.secondary:hover{background:#e7eaf4}.primary:disabled,.download-btn:disabled{opacity:.45;cursor:not-allowed;transform:none}.file-card{display:flex;align-items:center;gap:12px;padding:14px;border:1px solid var(--line);border-radius:13px;margin-top:14px}.pdf-icon{width:43px;height:47px;border-radius:10px;background:#fff0f0;color:#d74b57;display:grid;place-items:center;flex-shrink:0}.pdf-icon svg{width:23px}.file-info{min-width:0;flex:1}.file-name{font-weight:700;font-size:13px;overflow-wrap:anywhere}.file-meta{font-size:12px;color:var(--muted);margin-top:2px}.icon-btn{width:34px;height:34px;display:grid;place-items:center;border:0;background:transparent;border-radius:8px;color:#7c879b}.icon-btn:hover{background:#f2f4f9;color:var(--red)}.field{margin-bottom:17px}.field label,.field-label{display:block;font-weight:700;font-size:13px;margin-bottom:7px}.input{width:100%;border:1px solid #dfe4ef;border-radius:10px;background:white;padding:11px 12px;outline:none;color:var(--ink);font-size:14px}.input:focus{border-color:#8995ff;box-shadow:0 0 0 3px #465cf514}.help{font-size:11px;color:var(--muted);margin-top:6px}.mode-tabs{display:grid;grid-template-columns:1fr 1fr;background:#f1f3f9;padding:4px;border-radius:11px;gap:4px;margin-bottom:19px}.mode-tab{border:0;border-radius:8px;background:transparent;padding:10px 7px;font-size:12px;font-weight:700;color:#6a748a}.mode-tab.active{background:white;color:var(--blue);box-shadow:0 2px 5px #1720330c}.hidden{display:none!important}.range-input{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;letter-spacing:.1px}.preview-box{border:1px solid var(--line);border-radius:12px;padding:13px;margin:17px 0;background:#fcfcff}.preview-head{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-bottom:9px}.preview-head strong{font-size:12px}.count{font-size:11px;color:var(--blue);background:#edf0ff;border-radius:99px;padding:4px 8px;font-weight:800}.preview-list{display:flex;flex-wrap:wrap;gap:6px}.range-chip{font-size:11px;color:#39445d;background:#f0f2f8;border:1px solid #e7eaf2;border-radius:7px;padding:5px 8px}.range-chip.invalid{background:#fff0f0;color:var(--red);border-color:#ffd9dc}.status{font-size:12px;margin:10px 0 0;min-height:18px}.status.error{color:var(--red)}.status.success{color:var(--green)}.full{width:100%}.results{margin-bottom:45px}.results-head{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}.results-head h2{font-family:Manrope,sans-serif;font-size:21px;letter-spacing:-.7px;margin:0}.results-head p{margin:3px 0 0;color:var(--muted);font-size:12px}.download-btn{background:#15203a;color:white;padding:11px 15px;white-space:nowrap}.download-btn:hover{background:#273454}.result-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}.result-card{background:white;border:1px solid var(--line);border-radius:13px;padding:14px;min-width:0}.result-top{display:flex;align-items:center;gap:9px}.mini-pdf{width:35px;height:39px;border-radius:8px;background:#fff0f0;color:#d74b57;display:grid;place-items:center;flex-shrink:0}.mini-pdf svg{width:19px}.result-title{font-size:12px;font-weight:700;overflow-wrap:anywhere}.result-pages{font-size:11px;color:var(--muted);margin-top:2px}.result-actions{display:flex;gap:7px;margin-top:12px}.result-actions button{flex:1;border:1px solid var(--line);border-radius:8px;background:white;padding:8px 5px;font-size:11px;font-weight:700;color:#48536b}.result-actions button:hover{border-color:#b9c1d5;background:#fafbff}.empty-results{border:1px dashed #d7dcea;border-radius:14px;padding:27px;text-align:center;color:var(--muted);font-size:13px}.empty-results svg{width:28px;height:28px;color:#9ca6bc;margin-bottom:6px}.how{padding:28px 0 46px;border-top:1px solid #e7eaf2}.how h2{text-align:center;font-family:Manrope,sans-serif;font-size:23px;letter-spacing:-.8px;margin:0 0 22px}.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.how-step{background:#fff;border:1px solid var(--line);border-radius:14px;padding:18px}.how-num{width:28px;height:28px;background:#edf0ff;color:var(--blue);border-radius:9px;display:grid;place-items:center;font-weight:800;font-size:12px}.how-step h3{font-family:Manrope,sans-serif;font-size:14px;margin:12px 0 5px}.how-step p{font-size:12px;color:var(--muted);margin:0}.footer{border-top:1px solid #e7eaf2;padding:19px 0 25px;display:flex;justify-content:space-between;gap:12px;align-items:center;color:#7b8599;font-size:11px}.footer strong{color:#3b465d}.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(12px);background:#172033;color:white;padding:11px 15px;border-radius:10px;font-size:12px;box-shadow:0 10px 30px #1720332a;opacity:0;pointer-events:none;transition:.2s;z-index:5;max-width:calc(100% - 32px);text-align:center}.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}.spinner{width:14px;height:14px;border:2px solid #ffffff70;border-top-color:white;border-radius:50%;display:inline-block;animation:spin .7s linear infinite}@keyframes spin{to{transform:rotate(360deg)}}
-    @media(max-width:760px){.shell{width:min(100% - 24px,540px)}.topbar{height:65px}.brand{font-size:17px}.privacy-pill{font-size:10px;padding:7px 9px}.hero{padding:37px 0 25px}.hero h1{letter-spacing:-1.7px}.hero p{font-size:14px}.workspace{grid-template-columns:1fr;gap:15px}.panel{border-radius:16px}.panel-head{padding:18px 18px 14px}.panel-body{padding:18px}.dropzone{min-height:180px}.result-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.results-head{align-items:flex-start;flex-direction:column}.download-btn{width:100%}.steps{grid-template-columns:1fr}.how{padding:25px 0 32px}.how h2{text-align:left}.footer{align-items:flex-start;flex-direction:column}.hero h1{font-size:39px}}
-    @media(max-width:360px){.result-grid{grid-template-columns:1fr}.privacy-pill{max-width:132px}.hero h1{font-size:34px}}
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="shell topbar">
@@ -32,7 +27,7 @@
   <main id="top" class="shell">
     <section class="hero">
       <div class="eyebrow"><span>✦</span> MADE FOR ASSIGNMENTS</div>
-      <h1>One PDF in.<br><span>Every question out.</span></h1>
+      <h1>One PDF in.<br><span>Every question separated.</span></h1>
       <p>Split your assignment into question-wise PDFs in seconds. No account, no server uploads, no unnecessary steps.</p>
     </section>
     <section class="workspace" aria-label="PDF splitting tool">
@@ -73,6 +68,48 @@
     </section>
     <section class="results" aria-label="Split PDF results">
       <div class="results-head"><div><h2>Your separate PDFs</h2><p id="resultsSub">Your generated files will appear here.</p></div><button id="downloadAllBtn" class="download-btn" type="button" disabled><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/></svg> Download all (.ZIP)</button></div>
+      <div id="compressionPanel" class="compress-panel hidden">
+        <div class="compress-header">
+          <div class="compress-title-group">
+            <div class="compress-badge"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M4 14.899A7 7 0 1 1 15.71 8h1.79a4.5 4.5 0 0 1 2.5 8.242"/><path d="M12 12v9"/><path d="m8 17 4 4 4-4"/></svg> TARGET SIZE COMPRESSOR</div>
+            <h3>Compress files to exact limit</h3>
+            <p>Fit portal upload limits (e.g. 2 MB for Canvas, Moodle, or Google Classroom)</p>
+          </div>
+          <button id="compressAllBtn" class="primary compress-all-btn" type="button">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m13 2-2 2.5V8l3-1 2 2-2 3h3l-6 10 1-7H9l-2-2 3-3-2-2 1-3.5L13 2z"/></svg> Compress All to Target
+          </button>
+        </div>
+        <div class="compress-controls">
+          <div class="target-input-wrap">
+            <label for="targetSizeInput" class="compress-label">Target file size:</label>
+            <div class="target-input-box">
+              <input id="targetSizeInput" type="number" min="0.1" max="100" step="0.1" value="2" class="input target-num-input" aria-label="Target size number">
+              <select id="targetSizeUnit" class="input target-unit-select" aria-label="Target size unit">
+                <option value="MB" selected>MB</option>
+                <option value="KB">KB</option>
+              </select>
+            </div>
+          </div>
+          <div class="preset-group">
+            <span class="compress-label">Quick presets:</span>
+            <div class="preset-chips">
+              <button type="button" class="preset-chip" data-val="500" data-unit="KB">500 KB</button>
+              <button type="button" class="preset-chip" data-val="1" data-unit="MB">1 MB</button>
+              <button type="button" class="preset-chip active" data-val="2" data-unit="MB">2 MB</button>
+              <button type="button" class="preset-chip" data-val="5" data-unit="MB">5 MB</button>
+            </div>
+          </div>
+        </div>
+        <div id="compressProgressBox" class="compress-progress-box hidden">
+          <div class="compress-progress-header">
+            <span id="compressProgressStatus">Compressing PDFs...</span>
+            <span id="compressProgressPercent">0%</span>
+          </div>
+          <div class="progress-bar-bg">
+            <div id="compressProgressBar" class="progress-bar-fill" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
       <div id="resultsGrid" class="result-grid"><div class="empty-results" style="grid-column:1/-1"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg><div>Nothing here yet</div><div style="font-size:11px;margin-top:3px">Upload a PDF and split it to see your files.</div></div></div>
     </section>
     <section class="how"><h2>Three steps. That's it.</h2><div class="steps"><div class="how-step"><div class="how-num">01</div><h3>Upload once</h3><p>Choose the full assignment PDF from your phone, tablet, or laptop.</p></div><div class="how-step"><div class="how-num">02</div><h3>Split question-wise</h3><p>Choose equal page groups or enter custom page ranges for each question.</p></div><div class="how-step"><div class="how-num">03</div><h3>Download together</h3><p>Download any PDF individually, or get every file in one ZIP.</p></div></div></section>
@@ -81,90 +118,7 @@
   <div id="toast" class="toast" role="status" aria-live="polite"></div>
   <script src="https://cdn.jsdelivr.net/npm/pdf-lib@1.17.1/dist/pdf-lib.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
-  <script>
-    (() => {
-      const $ = id => document.getElementById(id);
-      const state = { file:null, bytes:null, pageCount:0, mode:'groups', ranges:[], outputs:[] };
-      const els = { dropzone:$('dropzone'), fileInput:$('fileInput'), fileCard:$('fileCard'), fileName:$('fileName'), fileMeta:$('fileMeta'), removeBtn:$('removeBtn'), uploadStatus:$('uploadStatus'), assignmentName:$('assignmentName'), pagesPerFile:$('pagesPerFile'), startPage:$('startPage'), rangesInput:$('rangesInput'), groupsMode:$('groupsMode'), customMode:$('customMode'), previewList:$('previewList'), rangeCount:$('rangeCount'), previewNote:$('previewNote'), splitBtn:$('splitBtn'), splitStatus:$('splitStatus'), resultsGrid:$('resultsGrid'), resultsSub:$('resultsSub'), downloadAllBtn:$('downloadAllBtn'), toast:$('toast') };
-      let toastTimer;
-      function toast(message){ els.toast.textContent=message;els.toast.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>els.toast.classList.remove('show'),2600); }
-      function niceSize(bytes){ if(bytes<1024)return bytes+' B';if(bytes<1024*1024)return (bytes/1024).toFixed(1)+' KB';return (bytes/1024/1024).toFixed(2)+' MB'; }
-      function safeName(s){return (s||'Assignment').trim().replace(/[\\/:*?"<>|]/g,'').replace(/\s+/g,' ').slice(0,90)||'Assignment';}
-      function setStatus(el,msg,type=''){el.textContent=msg;el.className='status'+(type?' '+type:'');}
-      function clearOutputs(){state.outputs.forEach(o=>{if(o.url)URL.revokeObjectURL(o.url)});state.outputs=[];els.resultsGrid.innerHTML='<div class="empty-results" style="grid-column:1/-1"><div>Nothing here yet</div><div style="font-size:11px;margin-top:3px">Split your PDF to see the generated files.</div></div>';els.resultsSub.textContent='Your generated files will appear here.';els.downloadAllBtn.disabled=true;}
-      function resetFile(){state.file=null;state.bytes=null;state.pageCount=0;els.fileInput.value='';els.fileCard.classList.add('hidden');els.dropzone.classList.remove('hidden');els.fileName.textContent='';els.fileMeta.textContent='';setStatus(els.uploadStatus,'');setStatus(els.splitStatus,'');clearOutputs();updatePreview();}
-      function getRanges(){
-        if(!state.pageCount)return {ranges:[],error:''};
-        let ranges=[];
-        if(state.mode==='groups'){
-          const group=Number(els.pagesPerFile.value),start=Number(els.startPage.value);
-          if(!Number.isInteger(start)||start<1||start>state.pageCount)return {ranges:[],error:`Start page must be between 1 and ${state.pageCount}.`};
-          for(let p=start;p<=state.pageCount;p+=group)ranges.push({start:p,end:Math.min(p+group-1,state.pageCount)});
-        } else {
-          const raw=els.rangesInput.value.trim();if(!raw)return {ranges:[],error:''};
-          const chunks=raw.split(',');
-          for(const chunk of chunks){const m=chunk.trim().match(/^(\d+)\s*(?:-\s*(\d+))?$/);if(!m)return {ranges:[],error:`“${chunk.trim()}” is not a valid range. Try 1-2, 3-4.`};const start=Number(m[1]),end=m[2]?Number(m[2]):start;if(start<1||end<start||end>state.pageCount)return {ranges:[],error:`Range ${start}-${end} is outside the PDF. Pages go from 1 to ${state.pageCount}.`};ranges.push({start,end});}
-        }
-        if(ranges.length>250)return {ranges:[],error:'Please create 250 or fewer PDFs at a time.'};
-        return {ranges,error:''};
-      }
-      function updatePreview(){
-        const result=getRanges();state.ranges=result.ranges;els.previewList.innerHTML='';
-        if(result.error){const span=document.createElement('span');span.className='range-chip invalid';span.textContent=result.error;els.previewList.appendChild(span);els.rangeCount.textContent='Check ranges';els.previewNote.textContent='Fix the settings above to continue.';els.splitBtn.disabled=true;return;}
-        if(!state.pageCount){const span=document.createElement('span');span.className='range-chip';span.textContent='Upload a PDF to preview ranges';els.previewList.appendChild(span);els.rangeCount.textContent='0 files';els.previewNote.textContent='';els.splitBtn.disabled=true;return;}
-        if(!result.ranges.length){const span=document.createElement('span');span.className='range-chip';span.textContent=state.mode==='custom'?'Enter page ranges above':'No pages to split';els.previewList.appendChild(span);els.rangeCount.textContent='0 files';els.previewNote.textContent=`This PDF has ${state.pageCount} pages.`;els.splitBtn.disabled=true;return;}
-        result.ranges.slice(0,12).forEach((r,i)=>{const span=document.createElement('span');span.className='range-chip';span.textContent=`${i+1}: ${r.start}${r.end!==r.start?'-'+r.end:''}`;els.previewList.appendChild(span)});
-        if(result.ranges.length>12){const span=document.createElement('span');span.className='range-chip';span.textContent=`+${result.ranges.length-12} more`;els.previewList.appendChild(span)}
-        els.rangeCount.textContent=`${result.ranges.length} file${result.ranges.length===1?'':'s'}`;els.previewNote.textContent=`${state.pageCount} pages in original PDF · ${result.ranges.length} output file${result.ranges.length===1?'':'s'}.`;
-        els.splitBtn.disabled=!state.file||!result.ranges.length;
-      }
-      async function loadFile(file){
-        if(!file)return;if(!(file.type==='application/pdf'||file.name.toLowerCase().endsWith('.pdf'))){setStatus(els.uploadStatus,'Please choose a PDF file.','error');return;}
-        if(file.size>200*1024*1024){setStatus(els.uploadStatus,'This file is larger than 200 MB. Try a smaller PDF for better browser performance.','error');return;}
-        setStatus(els.uploadStatus,'Reading PDF in your browser...');
-        try{
-          const bytes=await file.arrayBuffer();const doc=await PDFLib.PDFDocument.load(bytes,{ignoreEncryption:false});
-          state.file=file;state.bytes=bytes;state.pageCount=doc.getPageCount();
-          els.fileName.textContent=file.name;els.fileMeta.textContent=`${state.pageCount} pages · ${niceSize(file.size)}`;
-          els.dropzone.classList.add('hidden');els.fileCard.classList.remove('hidden');setStatus(els.uploadStatus,'PDF ready to split.','success');setStatus(els.splitStatus,'');clearOutputs();updatePreview();
-        }catch(err){console.error(err);const message=String(err&&err.message||'');setStatus(els.uploadStatus,message.toLowerCase().includes('encrypt')?'This PDF is password-protected. Please unlock it first.':'Could not read this PDF. Make sure it is a valid, unprotected PDF.','error');}
-      }
-      function renderOutputs(){
-        els.resultsGrid.innerHTML='';if(!state.outputs.length){clearOutputs();return;}
-        state.outputs.forEach((o,index)=>{
-          const card=document.createElement('article');card.className='result-card';
-          const top=document.createElement('div');top.className='result-top';const icon=document.createElement('div');icon.className='mini-pdf';icon.innerHTML='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><path d="M14 2v6h6M8 13h8M8 17h5"/></svg>';
-          const info=document.createElement('div');info.style.minWidth='0';const title=document.createElement('div');title.className='result-title';title.textContent=o.name;title.title=o.name;const pages=document.createElement('div');pages.className='result-pages';pages.textContent=`Pages ${o.range.start}${o.range.end!==o.range.start?'-'+o.range.end:''} · ${niceSize(o.blob.size)}`;info.append(title,pages);top.append(icon,info);const actions=document.createElement('div');actions.className='result-actions';const dl=document.createElement('button');dl.type='button';dl.textContent='Download PDF';dl.addEventListener('click',()=>downloadBlob(o.blob,o.name));actions.append(dl);card.append(top,actions);els.resultsGrid.append(card);
-        });
-        els.resultsSub.textContent=`${state.outputs.length} PDF${state.outputs.length===1?'':'s'} ready to download.`;els.downloadAllBtn.disabled=false;
-      }
-      function downloadBlob(blob,name){const url=URL.createObjectURL(blob);const a=document.createElement('a');a.href=url;a.download=name;document.body.appendChild(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1500);}
-      async function splitPdf(){
-        const {ranges,error}=getRanges();if(!state.bytes||error||!ranges.length){updatePreview();return;}
-        els.splitBtn.disabled=true;els.splitBtn.innerHTML='<span class="spinner"></span> Splitting PDF...';setStatus(els.splitStatus,'Creating separate PDFs on your device...');clearOutputs();
-        try{
-          const source=await PDFLib.PDFDocument.load(state.bytes);const base=safeName(els.assignmentName.value);const outputs=[];
-          for(let i=0;i<ranges.length;i++){
-            const range=ranges[i];const out=await PDFLib.PDFDocument.create();const indices=Array.from({length:range.end-range.start+1},(_,n)=>range.start-1+n);const copied=await out.copyPages(source,indices);copied.forEach(page=>out.addPage(page));const bytes=await out.save();const blob=new Blob([bytes],{type:'application/pdf'});const pageLabel=`${range.start}-${range.end}`;const name=`${String(i+1).padStart(2,'0')} - Pages ${pageLabel} - ${base}.pdf`;outputs.push({name,blob,range});
-            if(i%4===3)await new Promise(resolve=>setTimeout(resolve,0));
-          }
-          state.outputs=outputs;renderOutputs();setStatus(els.splitStatus,`Done! ${outputs.length} PDFs created successfully.`,'success');toast(`${outputs.length} PDFs are ready.`);document.querySelector('.results').scrollIntoView({behavior:'smooth',block:'start'});
-        }catch(err){console.error(err);setStatus(els.splitStatus,'Something went wrong while splitting. Try a smaller or different PDF.','error');toast('Could not split this PDF.');}
-        finally{els.splitBtn.disabled=!state.file||!getRanges().ranges.length;els.splitBtn.innerHTML='<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M8 3H5a2 2 0 0 0-2 2v3m13-5h3a2 2 0 0 1 2 2v3M8 21H5a2 2 0 0 1-2-2v-3m13 5h3a2 2 0 0 0 2-2v-3M8 12h8m-4-4v8"/></svg> Split my PDF';}
-      }
-      async function downloadZip(){
-        if(!state.outputs.length)return;const btn=els.downloadAllBtn;btn.disabled=true;btn.innerHTML='<span class="spinner"></span> Preparing ZIP...';
-        try{const zip=new JSZip();state.outputs.forEach(o=>zip.file(o.name,o.blob));const blob=await zip.generateAsync({type:'blob',compression:'DEFLATE',compressionOptions:{level:5}});downloadBlob(blob,`${safeName(els.assignmentName.value)} - Split PDFs.zip`);toast('Your ZIP download is ready.');}
-        catch(err){console.error(err);toast('Could not create ZIP. Download files individually instead.');}
-        finally{btn.disabled=false;btn.innerHTML='<svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><path d="m7 10 5 5 5-5M12 15V3"/></svg> Download all (.ZIP)';}
-      }
-      $('chooseBtn').addEventListener('click',e=>{e.stopPropagation();els.fileInput.click()});els.dropzone.addEventListener('click',()=>els.fileInput.click());els.dropzone.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();els.fileInput.click()}});els.fileInput.addEventListener('change',e=>loadFile(e.target.files[0]));
-      ['dragenter','dragover'].forEach(type=>els.dropzone.addEventListener(type,e=>{e.preventDefault();els.dropzone.classList.add('drag')}));['dragleave','drop'].forEach(type=>els.dropzone.addEventListener(type,e=>{e.preventDefault();els.dropzone.classList.remove('drag')}));els.dropzone.addEventListener('drop',e=>loadFile(e.dataTransfer.files[0]));
-      els.removeBtn.addEventListener('click',resetFile);[els.pagesPerFile,els.startPage,els.rangesInput].forEach(el=>el.addEventListener('input',updatePreview));els.assignmentName.addEventListener('input',()=>{if(state.outputs.length)setStatus(els.splitStatus,'Assignment name changed. Split again to update the generated filenames.');});
-      document.querySelectorAll('.mode-tab').forEach(btn=>btn.addEventListener('click',()=>{state.mode=btn.dataset.mode;document.querySelectorAll('.mode-tab').forEach(b=>{b.classList.toggle('active',b===btn);b.setAttribute('aria-selected',String(b===btn))});els.groupsMode.classList.toggle('hidden',state.mode!=='groups');els.customMode.classList.toggle('hidden',state.mode!=='custom');updatePreview()}));
-      els.splitBtn.addEventListener('click',splitPdf);els.downloadAllBtn.addEventListener('click',downloadZip);
-      if(!window.PDFLib||!window.JSZip){setStatus(els.uploadStatus,'Could not load the PDF tools. Check your internet connection and refresh the page.','error');}
-    })();
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
